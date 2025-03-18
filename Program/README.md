@@ -1,11 +1,6 @@
 # Як взаємодіяти
 
-Як використовувати venv(віртуальне середовище)
-1) Запустити PowerShell як адміністратор
-2) Виконати Set-ExecutionPolicy Unrestricted (одноразово)
-3) Виконати .\venv\Scripts\activate у директорії Program
-
-У venv всановлено FastAPI та Uvicorn
+У встановити fastapi, uvicorn та sqlalchemy
 
 Щоб запустити сервер виконати uvicorn Main.Main:app --reload у директорії Program. Запускати треба саме з директорії Program янікше програма незнатисе де брати імпорти інших файлів.
 1) Main. — шлях до файлу 
